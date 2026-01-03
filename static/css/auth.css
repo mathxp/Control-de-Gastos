@@ -1,0 +1,107 @@
+/* =========================
+   RESET
+========================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================
+   CONTENEDOR AUTH
+========================= */
+.auth-container {
+    background: white;
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+/* =========================
+   FORM
+========================= */
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.auth-container input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+}
+
+.auth-container input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* =========================
+   BOTÓN
+========================= */
+.auth-container button {
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+.auth-container button:hover {
+    background: #1e40af;
+}
+
+/* =========================
+   LINKS
+========================= */
+.auth-container a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   MENSAJE ERROR
+========================= */
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
